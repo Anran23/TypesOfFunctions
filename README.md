@@ -50,14 +50,15 @@ contract MyToken is ERC20, ERC20Burnable, Ownable {
     }
 }
 
+## Usage
 
-**## Usage**
 Deploy the contract specifying the token name, symbol, and initial supply.
 Use mint function to mint more tokens (onlyOwner).
 Use burnFrom function to burn tokens from an account (onlyOwner).
 Transfer tokens using standard ERC20 transfer function.
 
-**##License**
+##License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 For more information on ERC20 tokens and OpenZeppelin, refer to their respective documentations:
